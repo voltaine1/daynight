@@ -1,4 +1,4 @@
-# daynight
+# DAYNIGHT
 
 DAY NIGHT is a code for artwork that changes depending on the time of day.
 
