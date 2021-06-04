@@ -10,6 +10,10 @@
       height: 100vh;
       object-fit: contain;
     }
+    #dayiframe,
+    #nightiframe {
+      display: none;
+    }
   </style>
   <head>
     <meta charset="UTF-8" />
@@ -17,8 +21,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
   </head>
-  <body style="background-size: cover;">
-    <video autoplay muted  loop id="video">
+  <iframe src="day.mp4" type="video/mp4" allow="autoplay" id="audio" ></iframe>
+  <iframe src="night.mp4" type="video/mp4" allow="autoplay" id="audio" ></iframe>
+  <body style="background-size: cover">
+    <video autoplay loop id="video">
       <source id="source" />
       Your browser does not support HTML5 video.
     </video>
