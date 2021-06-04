@@ -8,7 +8,7 @@
       display: block;
       width: 100vw;
       height: 100vh;
-      object-fit: cover;
+      object-fit: contain;
     }
   </style>
   <head>
@@ -17,8 +17,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
   </head>
-  <body style="background-image: url('day.jpg');background-size: cover;">
-    <video autoplay muted src="night.mp4" loop id="video">
+  <body style="background-size: cover;">
+    <video autoplay muted  loop id="video">
       <source id="source" />
       Your browser does not support HTML5 video.
     </video>

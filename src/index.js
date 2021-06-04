@@ -1,5 +1,10 @@
 function setBackground(backgroundString) {
-  document.body.style['background-image'] = `url('${backgroundString}')`;
+  // document.body.style['background-image'] = `url('${backgroundString}')`;
+  if (backgroundString === 'day.jpg') {
+    document.body.style['background-color'] = 'white';
+  } else {
+    document.body.style['background-color'] = 'black';
+  }
 }
 async function setVideo(videoString) {
   const video = document.getElementById('video');
