@@ -14,6 +14,8 @@ function setBackground(backgroundString) {
   document.body.style['background-size'] = 'contain';
   if (backgroundString === 'day.jpg') {
     document.body.style['background-color'] = 'white';
+    const button = document.getElementById('mutedButton');
+    button.classList.toggle('filter');
   } else {
     document.body.style['background-color'] = 'black';
   }

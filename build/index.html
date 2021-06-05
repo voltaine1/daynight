@@ -24,6 +24,9 @@
     #nightiframe {
       display: none;
     }
+    .filter {
+      filter: invert(1) sepia(1) saturate(5) hue-rotate(175deg)
+    }
   </style>
   <head>
     <meta charset="UTF-8" />
@@ -39,7 +42,7 @@
         Your browser does not support HTML5 video.
       </video>
 
-      <img id="mutedButton" src="volume_off.svg" onclick="enableMute(this)"/>
+      <img id="mutedButton" src="volume_off.svg" onclick="enableMute(this)" />
     </div>
   </body>
 </html>
