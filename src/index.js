@@ -29,11 +29,11 @@ async function setVideo(videoString) {
   await video.play();
 }
 function setDay() {
-  setVideo('day.mp4');
+  // setVideo('day.mp4');
   setBackground('day.jpg');
 }
 function setNight() {
-  setVideo('night.mp4');
+  // setVideo('night.mp4');
   setBackground('night.jpg');
 }
 
