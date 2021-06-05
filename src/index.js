@@ -14,12 +14,15 @@ function setBackground(backgroundString) {
   document.body.style['background-size'] = 'contain';
   if (backgroundString === 'day.jpg') {
     document.body.style['background-color'] = 'white';
-    const button = document.getElementById('mutedButton');
-    button.classList.toggle('filter');
   } else {
     document.body.style['background-color'] = 'black';
   }
 }
+function changeButtonColor() {
+  const button = document.getElementById('mutedButton');
+  button.classList.toggle('filter');
+}
+
 async function setVideo(videoString) {
   const video = document.getElementById('video');
   const source = document.getElementById('source');
@@ -31,6 +34,7 @@ async function setVideo(videoString) {
 function setDay() {
   setVideo('day.mp4');
   setBackground('day.jpg');
+  changeButtonColor();
 }
 function setNight() {
   setVideo('night.mp4');

@@ -1,73 +1,88 @@
-const CopyWebpackPlugin = require("copy-webpack-plugin");
-const HTMLWebpackPlugin = require("html-webpack-plugin");
+const CopyWebpackPlugin = require('copy-webpack-plugin');
+const HTMLWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
-  mode: "development",
+  mode: 'development',
   devServer: {
-    contentBase: "dist",
+    inline: true,
+    contentBase: 'dist',
     port: 3000,
   },
-  devtool: "inline-source-map",
+  devtool: 'inline-source-map',
   plugins: [
     new CopyWebpackPlugin([
       {
-        context: "./build/",
-        from: "*.mp4",
-        to: "[name].mp4",
+        context: './build/',
+        from: '*.mp4',
+        to: '[name].mp4',
       },
     ]),
     new CopyWebpackPlugin([
       {
-        context: "./build/",
-        from: "*.svg",
-        to: "[name].svg",
+        context: './build/',
+        from: '*.svg',
+        to: '[name].svg',
       },
     ]),
     new CopyWebpackPlugin([
       {
-        context: "./build/",
-        from: "*.gif",
-        to: "[name].gif",
+        context: './build/',
+        from: '*.gif',
+        to: '[name].gif',
       },
     ]),
     new CopyWebpackPlugin([
       {
-        context: "./build/",
-        from: "*.jpg",
-        to: "[name].jpg",
+        context: './build/',
+        from: '*.jpg',
+        to: '[name].jpg',
       },
     ]),
     new CopyWebpackPlugin([
       {
-        context: "./build/",
-        from: "*.json",
-        to: "[name].json",
+        context: './build/',
+        from: '*.json',
+        to: '[name].json',
       },
     ]),
     new CopyWebpackPlugin([
       {
-        context: "./build/",
-        from: "*.ttf",
-        to: "[name].ttf",
+        context: './build/',
+        from: '*.ttf',
+        to: '[name].ttf',
       },
     ]),
     new CopyWebpackPlugin([
       {
-        context: "./build/",
-        from: "*.mp3",
-        to: "[name].mp3",
+        context: './build/',
+        from: '*.mp3',
+        to: '[name].mp3',
       },
     ]),
     new CopyWebpackPlugin([
       {
-        context: "./build/",
-        from: "*.png",
-        to: "[name].png",
+        context: './build/',
+        from: '*.png',
+        to: '[name].png',
       },
     ]),
     new HTMLWebpackPlugin({
-      template: "build/index.html",
-      filename: "index.html",
+      template: 'build/index.html',
+      filename: 'index.html',
     }),
   ],
+  module: {
+    rules: [
+      {
+        test: /\.m?js$/,
+        exclude: /(node_modules|bower_components)/,
+        use: {
+          loader: 'babel-loader',
+          options: {
+            presets: ['@babel/preset-env'],
+          },
+        },
+      },
+    ],
+  },
 };
