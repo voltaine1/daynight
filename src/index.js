@@ -1,5 +1,17 @@
+function enableMute(button) {
+  const video = document.getElementById('video');
+  if (video.muted) {
+    button.setAttribute('src', 'volume_up.svg');
+  } else {
+    button.setAttribute('src', 'volume_off.svg');
+  }
+  video.muted = !video.muted;
+}
+window.enableMute = enableMute;
+
 function setBackground(backgroundString) {
-  // document.body.style['background-image'] = `url('${backgroundString}')`;
+  document.body.style.background = `url('${backgroundString}')  no-repeat center center fixed`;
+  document.body.style['background-size'] = 'contain';
   if (backgroundString === 'day.jpg') {
     document.body.style['background-color'] = 'white';
   } else {
@@ -25,7 +37,6 @@ function setNight() {
 
 function setSky() {
   const d = new Date();
-
   /*
    * The getHours() method returns the hour (from 0 to 23) of the specified date and time.
    * Early mornig = 0 - 6
@@ -33,7 +44,6 @@ function setSky() {
    * Evening = 12 - 18
    * Night = 18 - 23
    */
-
   const currentHour = d.getHours();
   if (currentHour >= 19 || currentHour <= 6) {
     setNight();
