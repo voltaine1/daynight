@@ -1,3 +1,4 @@
+const isImage = false;
 function enableMute(button) {
   const video = document.getElementById('video');
   if (video.muted) {
@@ -31,14 +32,29 @@ async function setVideo(videoString) {
   await video.load();
   await video.play();
 }
+function hideButton() {
+  const button = document.getElementById('mutedButton');
+  button.style.display = 'none';
+}
 function setDay() {
-  setVideo('day.mp4');
-  setBackground('day.jpg');
+  if (isImage) {
+    hideButton();
+    setBackground('day.jpg');
+  } else {
+    setVideo('day.mp4');
+  }
+
   changeButtonColor();
 }
+
 function setNight() {
+  if (isImage) {
+    setBackground('night.jpg');
+  } else {
+    setVideo('night.mp4');
+  }
+
   setVideo('night.mp4');
-  setBackground('night.jpg');
 }
 
 function setSky() {
