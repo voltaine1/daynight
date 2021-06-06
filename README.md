@@ -2,6 +2,12 @@ DAY NIGHT is code for artwork that changes depending on the time of day.
 
 Night artwork is activated between 19:00 and 6:00.
 
+Image Version
+https://github.com/voltaine1/daynight/blob/main/daynightImage.zip
+
+Video Version
+https://github.com/voltaine1/daynight/blob/main/daynightVideo.zip
+
 
 
 If you create multiple editions of DAY NIGHT artwork consider sending 1 edition to the DAY NIGHT gallery to be featured. This not mandatory though.
