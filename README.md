@@ -1,32 +1,15 @@
-DAY NIGHT is code for artwork that changes depending on the time of day.
+DAY NIGHT is code for a hicetnunc.xyz NFT that changes depending on the time of day.
 
 Night artwork is activated between 19:00 and 6:00.
 
-Image Version
+Image Version (just replace the cover, day and night images - then upload to hicetnuc)
 https://github.com/voltaine1/daynight/raw/main/daynightImage.zip
 
-Video Version
+Video Version (just replace the cover, day and night videos - then upload to hicetnuc)
 https://github.com/voltaine1/daynight/raw/main/daynightVideo.zip
 
+If you use and like this code please consider sending an edition of your art to Voltaine.  Or just tweet #HeNdaynight so I can check it out.
 
-
-If you create multiple editions of DAY NIGHT artwork consider sending 1 edition to the DAY NIGHT gallery to be featured. This not mandatory, but will allow us to make more cool stuff!
-
-Please send to the the DAY NIGHT gallery address below and tweet #daynightgallery to let us know!
-
-https://www.hicetnunc.xyz/tz/tz1XRidszhnhpSCdgDeGTP15s3XYUp64aNwm
-
-At the end of the exhibition artworks will be put up for sale and the funds donated to the developers of HICETNUNC (minus a small service fee for coding and support).
-
-
-
+https://www.hicetnunc.xyz/tz/tz1X7MkF4YgW487SwdWhhEtyVSLhDmZTer11
 
 This open source code has been tested but may break in the future for some unknown reason. Use at your own risk.
-
-
-
-
-More info
-
-https://voltaine.com/daynight
-
