@@ -10,6 +10,9 @@ https://github.com/voltaine1/daynight/raw/main/daynightImage.zip
 Video Version (just replace the cover, day and night videos - then upload to hicetnuc)
 https://github.com/voltaine1/daynight/raw/main/daynightVideo.zip
 
+Example
+https://www.hicetnunc.xyz/objkt/118405
+
 If you use and like this code then please consider sending an edition of your DAY NIGHT art to Voltaine.  Or just tweet with the hashtags #hicetnunc #daynight so I can check it out and curate in a gallery later.
 
 https://www.hicetnunc.xyz/tz/tz1X7MkF4YgW487SwdWhhEtyVSLhDmZTer11
