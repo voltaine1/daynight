@@ -13,8 +13,8 @@ https://github.com/voltaine1/daynight/raw/main/daynightVideo.zip
 Example
 https://www.hicetnunc.xyz/objkt/118405
 
-If you use and like this code then please consider sending an edition of your DAY NIGHT art to Voltaine.  Or just tweet with the hashtags #hicetnunc #daynight so I can check it out and curate in a gallery later.
+If you use and like this code then please consider sending 1 or some editions of your DAY NIGHT art to the DAY NIGHT GALLERY LONDON. Proceeds from sales there will go to the hicetnunc Tezos fountain to help support the developers of hicetnunc. You will also be featured in the DAY NIGHT GALLERY LONDON exhibition.
 
-https://www.hicetnunc.xyz/tz/tz1X7MkF4YgW487SwdWhhEtyVSLhDmZTer11
+https://www.hicetnunc.xyz/tz/tz1XRidszhnhpSCdgDeGTP15s3XYUp64aNwm/collection
 
 This open source code has been tested but may break in the future for some unknown reason. Use at your own risk.
